@@ -156,7 +156,7 @@ def train():
     model, vocab = get_mxnet_kogpt2_model(ctx=ctx)
     # tok = SentencepieceTokenizer(tok_path, num_best=0, alpha=0)
 
-    data = pd.read_csv('Chatbot_data/카페_qna.csv')
+    data = pd.read_csv('Chatbot_data/카페_qna')
 
     #ddd
     max_len = opt.max_seq_len
